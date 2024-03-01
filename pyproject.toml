@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "poetry"
+version = "0.0.1"
+description = "Learning to use Poetry on Python"
+authors = ["Vegadelalyra <lyradeperseo@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
